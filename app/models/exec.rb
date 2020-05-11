@@ -31,4 +31,4 @@ surm_dank = Movie.new(
 
 ticket_vending_machine.movies = [one_piece, naruto, surm_dank]
 ticket_vending_machine.display_menu
-ticket_vending_machine.display_result(customer)
+customer.buy(ticket_vending_machine)

@@ -2,6 +2,7 @@ require './customer'
 require './movie'
 require './ticket'
 require './ticket_vending_machine'
+require 'date'
 
 customer = Customer.new("kakashi", 10000)
 
@@ -24,7 +25,7 @@ naruto = Movie.new(
 surm_dank = Movie.new(
                       "surm_dank",
                       1000,
-                      Date.new(20203.1),
+                      Date.new(2020.3.1),
                       Date.new(2020.5.1)
           )
 

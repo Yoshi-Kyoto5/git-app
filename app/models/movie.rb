@@ -5,4 +5,12 @@ class Movie
     @start_date = start_date
     @end_date = end_date
   end
+
+  def title
+    return @title
+  end
+
+  def fee
+    return @fee
+  end
 end

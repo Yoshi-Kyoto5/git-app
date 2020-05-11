@@ -29,4 +29,6 @@ surm_dank = Movie.new(
                       Date.new(2020.5.1)
           )
 
-TicketVendingMachine.movies = [one_piece, naruto, surm_dank]
+ticket_vending_machine.movies = [one_piece, naruto, surm_dank]
+ticket_vending_machine.display_menu
+ticket_vending_machine.display_result(customer)

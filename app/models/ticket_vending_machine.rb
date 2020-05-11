@@ -3,7 +3,7 @@ class TicketVendingMachine
     @movies = []
   end
 
-  def movies
-    @movies
+  def movies = (movies)
+    @movies = movies
   end
 end

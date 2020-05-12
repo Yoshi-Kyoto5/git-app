@@ -15,5 +15,8 @@
   <%= @article.text %>
 </p>
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
+<% if current_user_has?(@articles) %>
+  <%= link_to 'Edit', edit_article_path(@article) %> |
+<% end %>
+
 <%= link_to 'Back', articles_path %>
